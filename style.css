@@ -1,0 +1,11 @@
+body {
+    background-color: aquamarine;
+    color: black;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-style: bold;
+}
