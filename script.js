@@ -12,3 +12,12 @@ let student = {
 
 console.log(student.name, student.age);
 student.displayInfo();
+
+
+let jsonStudent = JSON.stringify(student);
+
+console.log(jsonStudent);
+
+let backToJS = JSON.parse(jsonStudent);
+
+console.log(backToJS.name, backToJS.age);
