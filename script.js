@@ -1,4 +1,4 @@
-let student = {
+let student = {                             //student object
     name: "Merle",
     age: 94,
     maritalStatus: "Widowed",
@@ -14,10 +14,13 @@ console.log(student.name, student.age);
 student.displayInfo();
 
 
-let jsonStudent = JSON.stringify(student);
+let jsonStudent = JSON.stringify(student);                //converting object into JSON
 
 console.log(jsonStudent);
 
-let backToJS = JSON.parse(jsonStudent);
+let backToJS = JSON.parse(jsonStudent);                   //converting JSON object back to Javascript
 
 console.log(backToJS.name, backToJS.age);
+
+
+let scores = [90, 87, 68, 95, 86, 88, 74, 80, 92, 75];
