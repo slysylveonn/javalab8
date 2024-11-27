@@ -23,4 +23,12 @@ let backToJS = JSON.parse(jsonStudent);                   //converting JSON obje
 console.log(backToJS.name, backToJS.age);
 
 
+
+let {name, courses} = student;                  //destructuring student object
+console.log(name, courses);
+
+
 let scores = [90, 87, 68, 95, 86, 88, 74, 80, 92, 75];
+
+let [first, second] = scores;                  //destructuring scores array
+console.log(first, second);
