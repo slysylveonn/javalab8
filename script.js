@@ -35,6 +35,9 @@ console.log(first, second);
 
 
 let copiedStudent = { ...student };            //copying student object using spread operand
-Object.defineProperty(copiedStudent, "yearEnrolled", { value: '2024' });
+Object.defineProperty(copiedStudent, 'yearEnrolled', { value: '2024' });
+console.log(copiedStudent.yearEnrolled);
 
-
+let schoolCourses = ['gym', 'c++', 'autoCAD', 'english'];
+let combinedCourses = [{ ...courses }, ...schoolCourses ];  //merging course arrays
+console.log(combinedCourses);
