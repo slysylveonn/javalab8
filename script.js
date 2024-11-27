@@ -32,3 +32,9 @@ let scores = [90, 87, 68, 95, 86, 88, 74, 80, 92, 75];
 
 let [first, second] = scores;                  //destructuring scores array
 console.log(first, second);
+
+
+let copiedStudent = { ...student };            //copying student object using spread operand
+Object.defineProperty(copiedStudent, "yearEnrolled", { value: '2024' });
+
+
