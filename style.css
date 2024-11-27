@@ -14,3 +14,8 @@ h1 {
     width: 150px;
     margin:auto;
 }
+
+.man:hover {
+    transform: scale(1.4);
+    transition: transform .2s;
+}
