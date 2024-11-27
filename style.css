@@ -8,6 +8,15 @@ body {
 h1 {
     font-size: x-large;
     font-style: bold;
+    background-color: rgba(255, 255, 191, 0.7);
+    height: 10%;
+    margin-top: 0%;
+    position: fixed;
+    width: 100%;
+}
+h2 {
+    font-size: x-small;
+    font-style: italic;
 }
 .man {
     height: 150px;
